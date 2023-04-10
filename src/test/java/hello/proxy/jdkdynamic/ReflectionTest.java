@@ -63,7 +63,6 @@ public class ReflectionTest {
 		log.info("result={}", result);
 	}
 
-	@Slf4j
 	static class Hello {
 		public String callA() {
 			log.info("callA");
